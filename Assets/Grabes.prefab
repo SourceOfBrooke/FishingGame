@@ -766,6 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6474412513235782537}
   - component: {fileID: 3980112664229774626}
+  - component: {fileID: 4514071666228786881}
   m_Layer: 0
   m_Name: Grabes
   m_TagString: Untagged
@@ -782,7 +783,7 @@ Transform:
   m_GameObject: {fileID: 9130183582193202946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -824,3 +825,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4514071666228786881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9130183582193202946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee16234e286cbbc4c8670c451bceda21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

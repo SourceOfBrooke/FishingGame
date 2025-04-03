@@ -4,22 +4,27 @@ using UnityEngine;
 
 public class Fruits : MonoBehaviour
 {
-   
 
+    int currentTime = 10;
 
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 10; i++)
-        {
-
-
-        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (Time.time > currentTime)
+            {
+
+                Destroy(gameObject);
+            }
+
+        }
         
     }
 }
