@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fruits : MonoBehaviour
 {
 
-    int currentTime = 10;
+    float currentTime = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,13 +16,17 @@ public class Fruits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentTime -= Time.deltaTime;
+
+        if (currentTime < 0) 
+        {
+            Destroy(gameObject);
+        }
+
+
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (Time.time > currentTime)
-            {
-
-                Destroy(gameObject);
-            }
+            
 
         }
         
