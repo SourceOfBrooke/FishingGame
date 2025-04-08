@@ -19,7 +19,7 @@ public class FruitSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= 3; i++)
             {
                 Instantiate(fruits[i]);
 
